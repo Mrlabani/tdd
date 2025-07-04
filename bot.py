@@ -8,9 +8,9 @@ from threading import Thread
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-API_ID = int(os.environ.get("API_ID", 123456))
-API_HASH = os.environ.get("API_HASH", "your_api_hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
+API_ID = int(os.environ.get("API_ID", 26555614))
+API_HASH = os.environ.get("API_HASH", "93bf5cde23435bb236066dcd7358ae6a")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7732753230:AAFiR83Tpy59PBsy1gNIwRjiJ5sQpCXuEr4")
 SESSION_FILE = "session.txt"
 
 client = None
